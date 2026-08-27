@@ -135,7 +135,7 @@ npm run dev
 ```
 App available at `http://localhost:5173`.
 
-## Notes / Design Decisions
+## Notes
 
 - **Passwords are never stored in plain text** — only a bcrypt hash.
 - **Deactivate vs. Delete** are separate actions for Users: deactivating flips a status flag, deleting removes the row entirely.
